@@ -1,0 +1,17 @@
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    background-color: #f0f0f0; /* 背景颜色 */  
+    overflow: hidden; /* 隐藏滚动条 */  
+}  
+
+.ball {  
+    width: 30px;         /* 球的宽度 */  
+    height: 30px;        /* 球的高度 */  
+    border-radius: 50%;  /* 让球呈现圆形 */  
+    position: absolute;   /* 绝对定位 */  
+    background-color: red; /* 默认颜色 */  
+}
