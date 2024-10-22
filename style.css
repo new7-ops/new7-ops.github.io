@@ -1,0 +1,27 @@
+body {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    background-color: #6a4c93; /* 背景颜色 */  
+}  
+
+.animation-container {  
+    position: relative;  
+    width: 300px; /* 调整根据需求 */  
+    height: 300px; /* 调整根据需求 */  
+    overflow: hidden;  
+}  
+
+.animated-image {  
+    position: absolute;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 0; /* 初始时为透明 */  
+    transition: opacity 1s ease-in-out; /* 过渡效果 */  
+}  
+
+#image1 {  
+    opacity: 1; /* 第一张图像初始时可见 */  
+}
